@@ -18,7 +18,7 @@ class Movie
     public function  getCast($cast_list)
     {
         foreach ($cast_list as $cast_person) {
-            echo $cast_person;
+            echo "<li>$cast_person</li>";
         }
     }
 }

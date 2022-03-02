@@ -28,9 +28,9 @@ include __DIR__ . '/./Movie.php';
         <h3><?php echo $my_movie->author ?></h3>
         <h4><?php echo $my_movie->year ?></h4>
         <ul>
-            <li>
-                <?php $my_movie->getCast($movie['cast_list']) ?>
-            </li>
+
+            <?php $my_movie->getCast($movie['cast_list']) ?>
+
         </ul>
 
     <?php endforeach; ?>
