@@ -1,55 +1,11 @@
 <?php
 
-// include __DIR__ . '/./data.php';
+include __DIR__ . '/./data.php';
 
-$movies = [
-    [
-        'title' => 'Mamma ho perso l\'aereo',
-        'author' => 'Walt Disney Picture',
-        'year' => '1990',
-        'cast_list' => [
-            'firstperson',
-            'secondperson',
-            'thirdperson'
-        ],
-    ],
-    [
-        'title' => 'Matrix',
-        'author' => 'Warner Bros Pictures',
-        'year' => '1999',
-        'cast_list' => [
-            'pers1',
-            'pers2',
-            'pers3'
-        ]
-    ]
-];
 
 include __DIR__ . '/./Movie.php';
 
 
-// class Movie
-// {
-
-//     public $title;
-//     public $author;
-//     public $year;
-
-//     public function __construct($title, $author, $year, $cast_list)
-//     {
-//         $this->title = $title;
-//         $this->author = $author;
-//         $this->year = $year;
-//         $this->cast_list = $cast_list;
-//     }
-
-//     public function  getCast($cast_list)
-//     {
-//         foreach ($cast_list as $cast_person) {
-//             echo $cast_person;
-//         }
-//     }
-// }
 
 ?>
 
