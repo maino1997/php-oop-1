@@ -1,6 +1,6 @@
 <?php
 
-// include __DIR__ . '/./data.php';
+include __DIR__ . '/./data.php';
 
 $movies = [
     [
@@ -24,6 +24,9 @@ $movies = [
         ]
     ]
 ];
+
+include __DIR__ . '/./data.php';
+
 
 class Movie
 {
